@@ -4,9 +4,7 @@ $.getJSON('data.json', function(json){
     var arr = json;
   
     
-console.log(arr);
 
-    
 //1. Массив скиллов всех людей отсортированый по алфавиту;
 var skills =_.map(arr, 'skills');
 var unionskills = _.union.apply(null, skills);
